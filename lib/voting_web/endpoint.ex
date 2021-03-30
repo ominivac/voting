@@ -7,7 +7,7 @@ defmodule VotingWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_voting_key",
-    signing_salt: "dBlHXjW5"
+    signing_salt: "7GlAOVub"
   ]
 
   socket "/socket", VotingWeb.UserSocket,
