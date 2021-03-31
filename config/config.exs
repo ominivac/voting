@@ -13,10 +13,10 @@ config :voting,
 # Configures the endpoint
 config :voting, VotingWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "tK4XCTTUD1ouRXq8KakFCkcdtk7wahxBRXtpUe24O85T/xIs6NkyLE2vb6v7/z8W",
+  secret_key_base: "5bgWqE8fceB3rZfz1E1QniqxmsCFfXdVOFEA4fSXleskMyWnpmRiJ4NzOw9m3c8c",
   render_errors: [view: VotingWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Voting.PubSub,
-  live_view: [signing_salt: "NHa+yifg"]
+  live_view: [signing_salt: "0WPVKP14"]
 
 # Configures Elixir's Logger
 config :logger, :console,
